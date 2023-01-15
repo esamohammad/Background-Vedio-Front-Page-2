@@ -12,7 +12,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 10px 100px;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -184,7 +184,7 @@ header .logo {
 }
 
 @media (max-width: 460px) {
-   
+
 
     .text {
         position: relative;
@@ -195,13 +195,23 @@ header .logo {
     .text h2 {
         font-size: 1.5em;
         font-weight: 800;
-        margin-top: 0px;
+
+
+
 
     }
 
     .text h3 {
         font-size: 0.9em;
         font-weight: 800;
+
+
+
+
+
+
+
+
 
     }
 
@@ -258,17 +268,16 @@ header .logo {
         letter-spacing: 10px;
     }
 
+    .social {
 
+        bottom: 80px;
+
+    }
 
     .social li {
         list-style: none;
     }
 
-    .social {
-
-        bottom: 60px;
-
-    }
 
     .social li a:hover {
         transform: scale(0.5) translateY(-15px);
